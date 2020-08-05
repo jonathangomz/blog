@@ -21,7 +21,7 @@
 title: Blog
 email: themailthatidontcare@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A site that will be for random stuff that I want to write
+  jonathangomz
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jonathangomz
