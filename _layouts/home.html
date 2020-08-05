@@ -7,21 +7,21 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
+    <div class="post-list">
       {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      <div class="post">
+        {%- assign date_format = site.minima.date_format | defadivt: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
         </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit blanditiis quas neque cupiditate autem sed alias possimus. Quasi placeat, eligendi nulla illum neque, nihil culpa amet ab voluptas, architecto at.</p>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
-      </li>
+      </div>
       {%- endfor -%}
     </ul>
   {%- endif -%}

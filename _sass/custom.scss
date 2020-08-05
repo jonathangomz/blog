@@ -1,22 +1,57 @@
-.portfolio-link {
-  border: 1px solid green;
-  border-radius: 5px;
-  color: black;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+.post-meta {
+  color: var(--green) !important;
+  text-align: justify;
 
-  &:hover, &:visited {
-    color: black;
+  &:hover,
+  &:visited {
+    color: var(--green);
     text-decoration: none;
   }
 }
 
-.site-footer {
-  padding: 10px 0;
+.svg-icon {
+  fill: var(--green);
 }
 
-.feed-subscribe {
-  text-align: center;
-  margin: 0;
+header.site-header {
+  border-bottom: 0;
+
+  .portfolio-link {
+    border: 1px solid var(--green);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+main {
+  .post-list {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+    .post {
+      border: 1px solid var(--green);
+      border-radius: 5px;
+      padding: 10px;
+      width: calc(100% - 25px);
+    }
+  }
+}
+
+footer.site-footer {
+  border-top: 0;
+  padding: 10px 0;
+
+  .feed-subscribe {
+    text-align: center;
+    margin: 0;
+  }
 }
