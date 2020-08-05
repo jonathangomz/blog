@@ -1,0 +1,22 @@
+.portfolio-link {
+  border: 1px solid green;
+  border-radius: 5px;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+
+  &:hover, &:visited {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+.site-footer {
+  padding: 10px 0;
+}
+
+.feed-subscribe {
+  text-align: center;
+  margin: 0;
+}
