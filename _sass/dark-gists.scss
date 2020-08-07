@@ -43,16 +43,38 @@ body .gist .pl-pds {
 
 body,
 figure,
-figure.highlight,
+.highlight,
 code,
 pre {
-  background-color: #000;
+  background-color: #000 !important;
 
   figure,
-  figure.highlight,
+  .highlight,
   code,
   pre {
     border-color: var(--green);
     border-radius: 5px;
   }
+}
+
+span.nx {
+  color: orange;
+}
+span.p {
+  color: aquamarine;
+}
+.highlight span.s2 {
+  color: green;
+}
+.highlight { 
+  span.k, span.kd {
+    color: purple;
+  }
+}
+.highlight span.err {
+  color: red;
+  background-color: #000;
+}
+.highlight span.nt {
+  color: #967cb4;
 }
