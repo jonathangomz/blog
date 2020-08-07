@@ -140,6 +140,7 @@ const includeFile = (file) => {
   return extension == "js"
 }
 ```
+> I exclude files that not end with ```.js``` because the builded project containt files ```.map``` for every ```.js``` file.
 
 The last thing that I had to do was execute the function on the ```src/app.js``` file passing the main app as the parameter:
 ```
@@ -160,3 +161,6 @@ Now if you follow these steps and run the app I hope that you will be able to se
 "world": "World"
 }
 ```
+
+If you want to add a new endpoint you just have to create a new file on the ```src/_endpoint/``` like the ```main.endpoint.js``` file
+and modify the ```path``` constant.
