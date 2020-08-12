@@ -13,7 +13,7 @@ __The general idea of this post is to present the idea that you just have to cre
 
 I'm new with the use of frameworks (and writing on english… and writing here on dev) and coding in general but the times that I use Express I didn’t like his openness and all the work that is around to configure everything. __I’m still new so maybe there are some ways to do it in an easy way. But I don’t know that’s why I’m open to seeing others ideas just for fun.__
 
-> Also this post it’s to remember the process and to start posting more stuff. So if you just want to know about the auto register it's on the Resumé part. But anyway, let's jump to the code.
+Also this post it’s to remember the process and to start posting more stuff. So if you just want to know about the auto register it's on the Resumé part. But anyway, let's jump to the code.
 
 ## Main
 
