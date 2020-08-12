@@ -6,18 +6,22 @@ date:   2020-08-07 12:00:00 -0500
 categories: dev
 ---
 
+__The general idea of this post is to present the idea that you just have to create the file with the endpoint, export it in the same file, and it can be register automatically to the app.__
+
 ### Note
 > __This is just to show my approach and to receive feedback about what I just had done__ 😬
 
 I'm new with the use of frameworks (and writing on english… and writing here on dev) and coding in general but the times that I use Express I didn’t like his openness and all the work that is around to configure everything. __I’m still new so maybe there are some ways to do it in an easy way. But I don’t know that’s why I’m open to seeing others ideas just for fun.__
 
+> 
+
 Also this post it’s to remember the process and to start posting more stuff. So if you just want to know about the auto register it's on the Resumé part. But anyway, let's jump to the code.
 
-## Resumé
+## Main
 
-[>> You can find the Project configuration here <<](#project-configuration)
+Here is the main stuff for what I want to show you.
 
-But here is the brief.
+[>> But you can find the rest of the project configuration here <<](#extra)
 
 ### Endpoint
 
@@ -88,7 +92,9 @@ export default app;
 
 And it was done! The rest is just the configuration with Babel and is just a plus ultra (I hope you get it).
 
-## Project configuration
+## Extra
+
+(Project Configuration)
 
 First of all I had to install Node... I will skip this step because I think there are different ways to install it. But as a note, I use nvm on zsh with oh my zsh on Linux.
 
